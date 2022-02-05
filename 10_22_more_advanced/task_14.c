@@ -34,7 +34,6 @@ int main()
     
     }while(again == 1);
     printf("That's all, thanks for using my calculator.");
-    
  
     return 0;
 }
