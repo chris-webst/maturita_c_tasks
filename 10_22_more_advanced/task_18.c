@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-/**
- * Maturita task #18
- * Karolina Podivinska
- * Load the numbers <int> until the user enters 0. 
- * Display the count of all the submitted numbers <int>.
- **/
+
+/*
+    #18
+    Load the numbers <int> until the user enters 0. 
+    Display the count of all the submitted numbers <int>.
+ */
 
 int main()
 {   int again;

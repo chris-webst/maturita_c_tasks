@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-/**
- * Maturita task #14
- * Karolina Podivinska
- * Load the number n <int>. 
- * Display the product of the preview numbers and n <int>.
- **/
+
+/*
+    #14
+    Load the number n <int>. 
+    Display the product of the preview numbers and n <int>.
+ */
 
 int main()
 {   int again;
