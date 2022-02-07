@@ -10,21 +10,21 @@
 
 int main()
 {   int again;
-    int for_n; /* defines the number for iterating */
-    int n; /* defines the number n */
-    int product; /* defines the temporary product */
+    int for_n;  /* defines the number for iterating */
+    int n;  /* defines the number n */
+    int product;  /* defines the temporary product */
     
     do{
         printf("Please enter the number n to compute the produt of its precedessors and it <int>.\n"); /* prints a line describing the task for the user */
-        scanf("%i", &n); /* loads n */
+        scanf("%i", &n);  /* loads n */
         product = 1;
         
         if (n == 0){
             product = 0;
         }
         else{
-            for (for_n = 1; for_n <= n; for_n++) /* raises for_n by one as long as it is equal or lower than n */
-                product = product * for_n; /* The product is equal to product from the previous iteration multiplied by the actual for_n */
+            for (for_n = 1; for_n <= n; for_n++)  /* raises for_n by one as long as it is equal or lower than n */
+                product = product * for_n;  /* The product is equal to product from the previous iteration multiplied by the actual for_n */
         }
         
         again = 0;

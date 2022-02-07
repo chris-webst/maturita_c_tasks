@@ -10,15 +10,15 @@
 
 int main()
 {   int again;
-    int n; /* defines the number n */
-    int count; /* defines the temporary count */
+    int n;  /* defines the number n */
+    int count;  /* defines the temporary count */
     
     do{
         count = 0;
         do{
             printf("Please enter a number you want to include in your count <int> If you type 0; the final count will be displayed.\n"); /* prints a line describing the task for the user */
-            scanf("%i", &n); /* loads n */
-            count = count + n; /*  */
+            scanf("%i", &n);  /* loads n */
+            count = count + n;
         
         }while(n != 0);
         

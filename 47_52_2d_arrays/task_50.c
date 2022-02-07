@@ -24,7 +24,7 @@ int main()
     
     for(i = 0; i <= 4; i++)
     {
-        b[i] = 0;   /* reset the sum on a new row to 0 */
+        b[i] = 0;  /* reset the sum on a new row to 0 */
         for(j = 0; j <= 3; j++)
             b[i] = b[i] + a[i][j];
     }
