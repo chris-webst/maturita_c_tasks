@@ -1,6 +1,6 @@
 <h1>Maturita tasks</h1>
 
-<p>This is a repository with maturita (high school finals) tasks in C. The tasks are divided into these categories:</p>
+<p>This is a repository with author solution of maturita (high school finals) tasks in C. The tasks are divided into these categories:</p>
 
 <ul>
     <li>basic mathematical operations and user input (tasks 1–9)</li>
