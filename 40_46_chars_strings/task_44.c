@@ -25,5 +25,7 @@ int main()
     scanf("%i", &integer);
     character = (char)integer;  // Conversion into ASCII.
     printf("\nInteger %i has an ASCII variable %c.", integer, character);
+    
+    return 0;
 
 }
