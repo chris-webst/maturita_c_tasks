@@ -21,5 +21,7 @@ int main()
         printf("%s", oneline);  // Print the first 80 chars into one line.
 
     }
+    
+    return 0;
 
 }
