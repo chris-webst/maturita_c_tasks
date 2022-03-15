@@ -39,4 +39,7 @@ int main()
         printf("Length of the second string is %i chars.\n", strlen(string2));
 
     }
+    
+    return 0;
+    
 }
