@@ -46,4 +46,4 @@ int main()
     printf("\n\nCount of occurencies:\n%i", count);
 
     return 0;
-}'
+}
