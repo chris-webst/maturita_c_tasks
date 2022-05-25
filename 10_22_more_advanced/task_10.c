@@ -30,7 +30,9 @@ int main()
         }
         
         else if(key == '*'){
+            
             continue;
+
         }
         
         else{
