@@ -9,13 +9,14 @@
  **/
 
 int main()
-{   int again;
-    int for_n;  /* defines the number for iterating */
-    int n;  /* defines the number n */
-    int count;  /* defines the temporary count */
+{   
+    int again;
+    int for_n;
+    int n;
+    int count;
     
     do{
-        printf("\nPlease enter the number n to compute the count first n ints <int>.\n");
+        printf("\nPlease enter n <int> to compute the count first n ints.\n");
         scanf("%i", &n);
         count = 0;
         
@@ -37,8 +38,7 @@ int main()
     
     }while(again == 1);
 
-    printf("\nThat's all, thanks for using my calculator.");
-    
+    printf("\nThat's all, thanks for using my calculator.");  
  
     return 0;
 }
