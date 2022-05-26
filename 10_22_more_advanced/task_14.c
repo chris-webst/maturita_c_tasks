@@ -17,7 +17,7 @@ int main()
         sum = 0;  /* Needs to be set here for possible reuse. */
 
         printf("Please enter a group of ints ending with zero "
-        " to display their sum.\n");
+        "to display their sum.\n");
         
         do{
 
