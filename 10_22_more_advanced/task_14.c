@@ -1,38 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
-/*
-    #14
-    Load the number n <int>. 
-    Display the product of the preview numbers and n <int>.
- */
+/**
+ * #14
+ * Load a group of ints ending with zero.
+ * Display the sum of the loaded numbers.
+ **/
 
 int main()
-{   int again;
-    int for_n;  /* defines the number for iterating */
-    int n;  /* defines the number n */
-    int product;  /* defines the temporary product */
+{   
+    int again;
+    int number;
+    int sum;
     
     do{
-        printf("Please enter the number n to compute the produt of its precedessors and it <int>.\n"); /* prints a line describing the task for the user */
-        scanf("%i", &n);  /* loads n */
-        product = 1;
+        sum = 0;  /* Needs to be set here for possible reuse. */
+
+        printf("Please enter a group of ints ending with zero "
+        " to display their sum.\n");
         
-        if (n == 0){
-            product = 0;
-        }
-        else{
-            for (for_n = 1; for_n <= n; for_n++)  /* raises for_n by one as long as it is equal or lower than n */
-                product = product * for_n;  /* The product is equal to product from the previous iteration multiplied by the actual for_n */
-        }
+        do{
+
+            scanf("%i", &number);
+            sum = sum + number;
+
+        }while(number != 0);
         
         again = 0;
-        printf("The product is equal to %i. Type 1 if you wanna countinue with another n, type something diffirent and the programme will be finished.", product);
+        printf("The sum is equal to %i. "
+        "Type 1 if you wanna countinue with another n, "
+        "type something diffirent and the programme will be finished.", sum);
         scanf("%i", &again);
         
     
     }while(again == 1);
+    
     printf("That's all, thanks for using my calculator.");
  
     return 0;
