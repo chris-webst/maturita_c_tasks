@@ -34,7 +34,7 @@ int main()
         
         again = 0;
         printf("The sum is equal to %i. "
-        "Type 1 if you wanna countinue with another n, "
+        "Type 1 if you wanna countinue with another group of numbers, "
         "type something diffirent and the programme will be finished.", sum);
         scanf("%i", &again);
         
