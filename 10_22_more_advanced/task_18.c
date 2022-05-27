@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
-/*
-    #18
-    Load n <int> and display n! (n factorial).
- */
+/**
+ * #18
+ * Load n <int> and display n! (n factorial).
+ **/
 
 int main()
 {   
