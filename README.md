@@ -4,7 +4,7 @@
 
 <ul>
     <li>basic mathematical operations and user input (tasks 1–9) <b>[complete] ✅</b></li>
-    <li>more advanced mathematical operations and user input (tasks 10-22)</li>
+    <li>more advanced mathematical operations and user input (tasks 10-22) <b>[complete] ✅</b></li>
     <li>text file operations (tasks 23–29)</li>
     <li>functions (tasks 30–35)</li>
     <li>1D arrays (tasks 36–39)</li>
