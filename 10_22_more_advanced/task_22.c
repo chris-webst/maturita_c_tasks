@@ -14,9 +14,9 @@ int main()
 
     printf("Small multiplication table\n\n");
 
-    for(i = 1; i < 10; i++){
+    for(i = 1; i < 10; i++){  /* Rows. */
 
-        for(j = 1; j < 10; j++){
+        for(j = 1; j < 10; j++){  /* Columns. */
 
             printf("%3i", i * j);
 
@@ -28,9 +28,9 @@ int main()
     
     printf("\nLarge multiplication table\n\n");
 
-    for(i = 10; i < 20; i++){
+    for(i = 10; i < 20; i++){  /* Rows. */
 
-        for(j = 1; j < 10; j++){
+        for(j = 1; j < 10; j++){  /* Columns. */
 
             printf("%4i", i * j);
 
