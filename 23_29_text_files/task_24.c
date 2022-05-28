@@ -15,7 +15,7 @@ int main()
     int sum;
     int i;
     int number;
-    FILE *fileread;  /* Operating chart for the created (writing) file. */
+    FILE *fileread;  /* Operating chart for the given (reading) file. */
 
     sum = 0;
 
