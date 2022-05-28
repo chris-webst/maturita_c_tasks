@@ -3,7 +3,7 @@
  * Write a program which loads
  * three ints from the file data.txt
  * (each on a separate line)
- * and prints their sum on the monitor  
+ * and prints their sum on the monitor. 
  **/
 
 #include <stdio.h>
