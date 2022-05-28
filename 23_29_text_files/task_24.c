@@ -21,7 +21,7 @@ int main()
 
     /**
      * Loading of data.txt (type "read"),
-     * initiates operating with the filewrite chart.
+     * initiates operating with the fileread chart.
      **/
     fileread = fopen("data.txt", "r");
 
