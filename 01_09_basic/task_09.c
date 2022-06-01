@@ -1,13 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #09
  * Load the key from the keyboard (letter) <char>. 
  * Display it's char type (assign char1 and char2 types
  * to four random letters and assign char3 to the rest) <str>.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 int main()
 {   
