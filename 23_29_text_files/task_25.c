@@ -28,5 +28,7 @@ int main()
 
     fclose(fileread);
     fclose(filewrite);
+    
+    return 0;
 
 }
