@@ -1,0 +1,4 @@
+This is the text to be copied to the file copy.txt.
+It was written on Wednesday June 1st 2022 by Chris.
+Happy World Children's Day.
+I didn't enjoy it so much though this year.
