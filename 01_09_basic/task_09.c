@@ -20,6 +20,7 @@ int main()
     "Can you find all the types (char1/char2/char3) <char>?\n");
 
     do{
+
         letter = getchar(); /* loads the key (letter) */
         switch(letter){
 
@@ -59,4 +60,5 @@ int main()
     printf("\nThanks for using my letterator.");
 
     return 0;
+
 }
