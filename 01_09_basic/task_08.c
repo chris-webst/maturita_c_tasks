@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #08
  * Load the number of the month of the year <int>. 
  * Display it's name <str>.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 int main()
 {   
