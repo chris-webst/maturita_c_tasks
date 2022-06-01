@@ -35,5 +35,7 @@ int main()
     fclose(fileread);  /* Ends operating with the chart. */
     
     printf("Sum of the three numbers defined in data.txt is equal to %i.", sum);
+    
+    return 0;
 
 }
