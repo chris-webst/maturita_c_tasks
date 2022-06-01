@@ -27,5 +27,7 @@ int main()
     }
 
     fclose(filewrite);  /* Ends operating with the chart. */
+    
+    return 0;
 
 }
