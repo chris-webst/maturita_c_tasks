@@ -25,7 +25,8 @@ int main()
      * Needs to be in this order, otherwise
      * the program loads the EOF character too
      * which will then be printed into copy.txt
-     * as an unknown char.*/
+     * as an unknown char.
+     **/
     while(letter != EOF){
 
         putc(letter, filewrite);
