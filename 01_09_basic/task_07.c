@@ -82,4 +82,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
