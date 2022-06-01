@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #07
  * Load the coefficients of the quadratic equation <float>. 
  * Display it's solution(s) <float>.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 int main()
 
