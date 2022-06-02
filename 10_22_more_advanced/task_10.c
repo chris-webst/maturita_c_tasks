@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #10
  * Write a program that loads chars from the keyboard 
@@ -8,6 +5,10 @@
  * Replace saces with the # char and make the program
  * stop after loading the * char.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {
