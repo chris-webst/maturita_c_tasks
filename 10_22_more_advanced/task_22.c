@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #22
  * Display both the small and large
  * multiplication table using cycles.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -41,4 +42,5 @@ int main()
     }
 
     return 0;
+
 }
