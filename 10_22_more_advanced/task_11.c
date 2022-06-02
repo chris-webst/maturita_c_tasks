@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #11
  * A group of non-zero digits ending with zero is given by the user.
@@ -8,6 +5,10 @@
  * Display how many times the pattern occurs in the group
  * and at which positions.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {
