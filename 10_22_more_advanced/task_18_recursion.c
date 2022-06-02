@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #18
  * Load n <int> and display n! (n factorial) using recursion.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 /**
  * This function returns ints and has one int as an atribut.
@@ -63,4 +64,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
 
     return 0;
+
 }
