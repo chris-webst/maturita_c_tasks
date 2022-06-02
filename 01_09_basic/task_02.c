@@ -1,10 +1,10 @@
-/*  
-    #02
-    Display on the monitor the number
-    of banknotes and coins corresponding
-    to the financial amount (CZK)
-    given by the user. 
-*/
+/**
+ * #02
+ * Display on the monitor the number
+ * of banknotes and coins corresponding
+ * to the financial amount (CZK)
+ * given by the user. 
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,9 +13,9 @@
 int main()
 {
 
-    int amount;  // Given amount.
-    int ft, tt, ot, fh, th, oh;  // Banknotes.
-    int fifty, twenty, ten, five, two, one;  // Coins.
+    int amount;  /* Given amount. */
+    int ft, tt, ot, fh, th, oh;  /* Banknotes. */
+    int fifty, twenty, ten, five, two, one;  /* Coins. */
 
 
     printf("Insert the financial amount.\n");
