@@ -1,7 +1,7 @@
 /**  
  * #29
  * Write a program that counts the number
- * of digits, \t, \n and other chars
+ * of digits, spaces, \ts, \ns and other chars
  * of the file input.txt.
  **/
 
