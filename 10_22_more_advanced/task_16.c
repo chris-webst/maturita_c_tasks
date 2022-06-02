@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #16
  * Load a group of positive ints ending with zero.
  * Display maximum of those numbers.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -43,4 +44,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
