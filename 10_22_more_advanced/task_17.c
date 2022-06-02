@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #17
  * Load a group of ints ending with zero.
  * Display their arithmetic mean.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -44,4 +45,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
