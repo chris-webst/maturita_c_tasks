@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #19
  * Load two positive ints.
  * Display their ratio and remainder
  * using just substraction.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -51,4 +52,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+  
 }
