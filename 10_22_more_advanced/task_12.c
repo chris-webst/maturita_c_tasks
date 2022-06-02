@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #12
  * Display the temperature table on the monitor
  * (from the interval <- 50 °C; +50 °C> in steps of 5 °C)
  * in degrees Celsius, Fahrenheit and Kelvin.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {
@@ -19,4 +20,5 @@ int main()
     }
 
     return 0;
+
 }
