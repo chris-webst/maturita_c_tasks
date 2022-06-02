@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #13
  * Load the number n <int>.
  * Display the count of the preview numbers and n <int>.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 int main()
 {   
@@ -41,4 +42,5 @@ int main()
     printf("\nThat's all, thanks for using my calculator.");  
  
     return 0;
+
 }
