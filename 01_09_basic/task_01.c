@@ -1,10 +1,10 @@
-/*  
-    #01
-    Write a program that loads an integer
-    as a length of a cube edge and displays
-    its surface, volume and length of both
-    face and internal diagonal. 
-*/
+/** 
+ * #01
+ * Write a program that loads an integer
+ * as a length of a cube edge and displays
+ * its surface, volume and length of both
+ * face and internal diagonal. 
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,8 +13,8 @@
 int main()
 {
 
-    int edge, surface, volume;  // These will always be integers.
-    float face_dia, inter_dia;  // These could be both integers and floats.
+    int edge, surface, volume;  /* These will always be integers. */
+    float face_dia, inter_dia;  /* These could be both integers and floats. */
 
     printf("Insert an integer representing the length of an"
     " edge of a cube. Then the surface, volume, length of the"
