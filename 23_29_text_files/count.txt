@@ -1,0 +1,3 @@
+This text is about to be run by the program of maturita task 28.
+It contains three lines and unknown number of characters and words
+(Chris is too lazy to count them manually).
