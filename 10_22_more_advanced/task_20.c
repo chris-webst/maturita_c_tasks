@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #20
  * Find the greatest common divisor
  * of two positive integers using Euclid's algorithm.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 /**
  * Euclid's algorithm is an efficient method for computing
@@ -72,4 +73,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
