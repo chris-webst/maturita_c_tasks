@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #21
  * Load a natural number n.
  * Compute its square without
  * using the multiplication operation.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -44,4 +45,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
