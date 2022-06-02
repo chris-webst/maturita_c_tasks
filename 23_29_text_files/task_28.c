@@ -45,6 +45,7 @@ int main()
 
         }
 
+        /* However, for some reason can't identify \ts. */
         else if(letter == '\t'){
 
             words = words + 1;
