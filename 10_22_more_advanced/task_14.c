@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * #14
  * Load a group of ints ending with zero.
  * Display the sum of the loaded numbers.
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {   
@@ -38,4 +39,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
  
     return 0;
+
 }
