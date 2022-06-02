@@ -1,0 +1,5 @@
+This is a list of chars that the program of the task 29 will count:
+    1. digits (0–9)
+    2. tabs (however it seems like it's ignoring them)
+    3. newline characters
+    4. other characters
