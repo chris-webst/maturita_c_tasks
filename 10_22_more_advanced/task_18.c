@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /**
  * #18
  * Load n <int> and display n! (n factorial).
  **/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 
 int main()
 {   
@@ -38,4 +39,5 @@ int main()
     printf("That's all, thanks for using my calculator.");
 
     return 0;
+
 }
