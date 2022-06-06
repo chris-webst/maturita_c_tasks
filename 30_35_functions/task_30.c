@@ -27,14 +27,16 @@ int main()
 
     for(i = 0; i <3; i++){
         
-        printf("\n%i. ROUND\nPlease enter three numbers <int> to compute their maximum.", i + 1);
+        printf("\n%i. ROUND\nPlease enter three numbers <int> "
+        "to compute their maximum.", i + 1);
         scanf("%i %i %i", &first, &second, &third);
 
         maximums[i] = maximum(first, second, third);
     
     }
 
-    printf("The final maximum is equal to %i.", maximum(maximums[0], maximums[1], maximums[2]));
+    printf("The final maximum is equal to %i.",
+    maximum(maximums[0], maximums[1], maximums[2]));
     
     return 0;
 
