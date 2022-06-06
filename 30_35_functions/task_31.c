@@ -29,6 +29,8 @@ int main()
     printf("\nCube of this number is equal to %i.", cube);
 
     greater(square, cube);
+    
+    return 0;
 
 }
 
