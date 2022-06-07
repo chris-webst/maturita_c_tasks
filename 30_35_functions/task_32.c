@@ -7,7 +7,7 @@
  * 
  * Use functions (even for the input
  * and displaying the results).
- * **/
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
