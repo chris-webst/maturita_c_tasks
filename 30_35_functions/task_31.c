@@ -10,7 +10,7 @@
 #include <string.h>
 
 int power(int power, int base);
-int greater(int first, int second);
+void greater(int first, int second);
 
 
 int main()
@@ -55,7 +55,7 @@ int power(int power, int base){
 
 }
 
-int greater(int first, int second){
+void greater(int first, int second){
 
     if(first > second){
 
@@ -74,7 +74,5 @@ int greater(int first, int second){
         printf("\nCube and square of this number have same value.");
 
     }
-    
-    return 0;
 
 }
