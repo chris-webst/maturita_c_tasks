@@ -1,27 +1,27 @@
- /*  
-    #53
-    Write a programme that adds two
-    complex numbers (four floats representing
-    the two complex numbers are given
-    by the user – (a1; a2), (b1; b2)) and
-    display the sum on the monitor.
-    Use struct type.
-*/
+/**
+ * #53
+ * Write a program that adds two
+ * complex numbers (four floats representing
+ *  the two complex numbers are given
+ * by the user – (a1; a2), (b1; b2)) and
+ * display the sum on the monitor.
+ * Use struct type.
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct{  // Definition of the structure (for further substitution).
 
-    float re;  // Represents the real part of the complex number.
-    float im;  // Represents the imaginary part of the complex number.
+typedef struct{  /** Definition of the structure (for further substitution). **/
+
+    float re;  /** Represents the real part of the complex number. **/
+    float im;  /** Represents the imaginary part of the complex number. **/
 
 }complex;
 
 
 int main()
 {
-
     complex first, second, sum;
 
     printf("Please enter two real numbers representing the first "
