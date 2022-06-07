@@ -22,7 +22,9 @@ typedef struct{  /** Definition of the structure (for further substitution). **/
 
 int main()
 {
-    complex first, second, sum;
+    complex first;
+    complex second;
+    complex sum;
 
     printf("Please enter two real numbers representing the first "
             "complex number (in order of real_part, imaginary_part) "
