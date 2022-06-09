@@ -34,8 +34,8 @@ int main()
 
 }
 
-int power(int power, int base){
-
+int power(int power, int base)
+{
     int result;
     int i;
 
@@ -55,8 +55,8 @@ int power(int power, int base){
 
 }
 
-void greater(int first, int second){
-
+void greater(int first, int second)
+{
     if(first > second){
 
         printf("\nSqare of this number is greater than its cube.");
