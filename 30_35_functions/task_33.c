@@ -55,8 +55,8 @@ float content(float side_1, float side_2)
 }
 
 
-float count(float content_values[]){
-
+float count(float content_values[])
+{
     float count_value;
     int i;
 
