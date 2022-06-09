@@ -59,8 +59,8 @@ float input(void)
 
 }
 
-void computing(float radius, float *p_content, float *p_perimeter){
-
+void computing(float radius, float *p_content, float *p_perimeter)
+{
     /**
      * Values of content and perimeter
      * variables (at addresses *p_content
