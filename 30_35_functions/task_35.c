@@ -42,8 +42,8 @@ float input(void)
 
 }
 
-void computing(float side, float *p_content, float *p_perimeter){
-
+void computing(float side, float *p_content, float *p_perimeter)
+{
     *p_content = side * side;
     *p_perimeter = 4 * side;
 
