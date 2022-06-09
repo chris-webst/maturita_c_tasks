@@ -70,6 +70,6 @@ float perimeter(float side_length)
 void display(float content, float perimeter)
 {
     printf("\nContent of the square: %.3f square unit(s)", content);
-    printf("\nPerimeter of the circle: %.3f unit(s)", perimeter);
+    printf("\nPerimeter of the square: %.3f unit(s)", perimeter);
 
 }
