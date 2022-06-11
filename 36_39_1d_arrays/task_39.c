@@ -5,7 +5,7 @@
  * two four–element vectors and
  * computes their scalar product.
  * Also display whether the vectors
- * perpendicular to each other.
+ * are perpendicular to each other.
  **/
 
 #include <stdio.h>
@@ -41,9 +41,9 @@ int main()
     
     /**
      * The  scalar product of two vectors
-     * is computed as the sum of of the individual
-     * elements located at the same position 
-     * in both vectors multiplied by each other.
+     * is computed as the sum of the products 
+     * of pairs of elements located at the same
+     * positions in both vectors.
      * 
      * Therefore, if the value is zero for each position
      * in at least one of the arrays, the scalar product
