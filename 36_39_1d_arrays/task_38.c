@@ -17,7 +17,6 @@
 int main()
 {
     int vector[10];
-    int final[5];
     int i;
     int j;
     int k;
