@@ -7,7 +7,7 @@
     <li>more advanced mathematical operations and user input (tasks 10-22) <b>[complete] ✅</b></li>
     <li>text file operations (tasks 23–29) <b>[complete] ✅</b></li>
     <li>functions (tasks 30–35) <b>[complete] ✅</b></li>
-    <li>1D arrays (tasks 36–39)</li>
+    <li>1D arrays (tasks 36–39) <b>[complete] ✅</b></li>
     <li>operations with characters and strings (tasks 40–46)</li>
     <li>2D arrays (tasks 47–52)</li>
     <li>operations with struct type (tasks 53–55) <b>[complete] ✅</b></li>
