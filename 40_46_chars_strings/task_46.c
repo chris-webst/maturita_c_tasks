@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 void code(char string[], char alphabet[], int shift);
 
@@ -53,7 +54,16 @@ void code(char string[], char alphabet[], int shift){
             
         }
         
-        string[i] = alphabet[((index + shift) % 26)];
+    
+        index = (index + shift) % 26;
+        
+        if(index < 0){
+            
+            index = index + 26;
+            
+        }
+        
+        string[i] = alphabet [index];
         
     }
     
