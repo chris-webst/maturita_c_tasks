@@ -30,7 +30,7 @@ int main()
     printf("\nEncoded");
     code(string, alphabet, shift);
     printf("\nDecoded");
-    code(string, alphabet, - shift);
+    code(string, alphabet, - shift);  /** Just reverse the encoded part. **/
 
     return 0;
 
@@ -57,7 +57,7 @@ void code(char string[], char alphabet[], int shift){
     
         index = (index + shift) % 26;
         
-        if(index < 0){
+        if(index < 0){  /** When char is 'a' and index is -1. **/
             
             index = index + 26;
             
