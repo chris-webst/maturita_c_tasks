@@ -1,83 +1,62 @@
-/*  
-    #46
-    Write a Caesar Cipher program (shifting 
-    by a certain number of characters of the alphabet).
-    Display the input, encoded and decoded string.
-*/
+/**
+ * #46
+ * Write a Caesar Cipher program (shifting 
+ * by a certain amount of characters of the alphabet).
+ * Display the primary, encoded and decoded string.
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+void code(char string[], char alphabet[], int shift);
+
+
 int main()
 {
 
-    char string[10];
+    char string[] = "thisiscaesarsmessage";
     char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
-    int shift, i, j, index;
-
-    printf("Insert the string to be encoded:\n");
-    scanf("%s", string);
-    printf("\nInsert the shift (positive for right, negative\
-    for left alphabetical shift).\n");
+    int shift;
+  
+    printf("Insert the shift (positive int for right, negative"
+    " int for left alphabetical shift).\n");
     scanf("%i", &shift);
-
-    printf("Input string: %s\n", string);
-
-    for(i = 0; string[i] != '\0'; i++)
-    {
-        for(j = 0; j < 26; j++)
-        {
-            index = 0;
-
-            if(string[i] == alphabet[j])
-            {
-                index = j;
-                break;
-            }
-
-        }
         
-        index = (index + shift) % 26;
-        if(index < 0)
-        {
-            
-            index = index + 26;
-            
-        }
-        string[i] = alphabet[index];
-
-    }
-
-    printf("\nEncoded string: %s\n", string);
-
-    for(i = 0; string[i] != '\0'; i++)
-    {
-        index = 0;
-        for(j = 0; j < 26; j++)
-        {index = 0;
-
-            if(string[i] == alphabet[j])
-            {
-                index = j;
-                break;
-            }
-
-        }
-        
-        index = (index - shift) % 26;
-        if(index < 0)
-        {
-            
-            index = index + 26;
-            
-        }
-        string[i] = alphabet[index];
-
-    }
-
-    printf("Decoded string: %s\n", string);
+    shift = shift % 26;
     
+    printf("Input string: %s\n", string);
+    printf("\nEncoded");
+    code(string, alphabet, shift);
+    printf("\nDecoded");
+    code(string, alphabet, - shift);
+
     return 0;
 
+}
+
+void code(char string[], char alphabet[], int shift){
+    
+    int i;
+    int j;
+    int index;
+    
+    for(i = 0; string[i] != '\0'; i++){
+        
+        for(j = 0; j < 26; j++){
+            
+            if(alphabet[j] == string[i]){
+                
+                index = j;
+                
+            }
+            
+        }
+        
+        string[i] = alphabet[((index + shift) % 26)];
+        
+    }
+    
+    printf(" string: %s\n", string);
+    
 }
