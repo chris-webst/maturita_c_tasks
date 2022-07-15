@@ -45,7 +45,7 @@ int main()
 
     }
     
-    for(k = 0; k < 5; k++){
+    for(k = 0; k <= 4; k++){
     
         printf("\nMaximum of the %i. row is %i.", (k + 1), biggest[k]);
         
