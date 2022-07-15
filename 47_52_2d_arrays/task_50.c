@@ -1,38 +1,46 @@
-/*  
-    #50
-    Write a program which loads a 2D array with ints 
-    inserted by the user (5 rows, 4 columns)
-    and prints out the sum of each row.
-*/
+/**
+ * #50
+ * Write a program which loads a 2D array with ints 
+ * inserted by the user (5 rows, 4 columns)
+ * and prints out the sum of each row on the monitor.
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
-    /* need five for loops --> 2D + 1D array + printing */
+    int array[5][4];  /* array[rows][columns] */
+    int sums[5];  /* Array for the row sums. */
+    int sum;
+    int i;
+    int j;
+    int k;
 
-    int a[5][4], b[5], i, j; /* 2D array, 1D sum array, iterators, sum */
+    printf("Insert 20 ints separated by Enter\n");
 
-    printf("Insert 20 ints separated by Enter or Space\n");
+    for(i = 0; i <= 4; i++){
 
-    for(i = 0; i <= 4; i++)
-        for(j = 0; j <= 3; j++)
-        {
-            scanf("%i", &a[i][j]);
+        sum = 0;
+
+        for(j = 0; j <= 3; j++){
+
+            scanf("%i", &array[i][j]);
+            sum = sum + array[i][j];
+
         }
-    
-    for(i = 0; i <= 4; i++)
-    {
-        b[i] = 0;  /* reset the sum on a new row to 0 */
-        for(j = 0; j <= 3; j++)
-            b[i] = b[i] + a[i][j];
+
+        sums[i] = sum;
+
     }
 
-    printf("Sums of the rows:\n");
+    for(k = 0; k <= 4; k++){
 
-    for(i = 0; i <= 4; i++)
-        printf("%i ", b[i]);
+        printf("Sum of the %i. row is %i.\n", (k + 1), sums[k]);
+        
+    }
 
     return 0;
+
 }
